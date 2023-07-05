@@ -164,7 +164,7 @@
 }
 
 .events__more:hover {
-  color: #1f60c9;
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -254,7 +254,7 @@
   margin: 0;
 }
 
-.staff__content {
+.staff__cards {
   max-width: 760px;
   margin: auto;
   margin-top: 68px;
