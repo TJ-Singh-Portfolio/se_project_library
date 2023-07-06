@@ -38,7 +38,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -237,6 +237,7 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
 }
 
 .staff__title {
@@ -244,6 +245,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #ffffff;
 }
 
 .staff__subtitle {
@@ -252,6 +254,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: #ffffff;
 }
 
 .staff__cards {
@@ -354,7 +357,9 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  z-index: -1;
+  z-index: 1;
+  display: flex;
+  column-gap: 120px;
 }
 
 .about__title {
@@ -363,7 +368,7 @@
   line-height: 30px;
   font-weight: 500;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   max-width: 154px;
 }
 
@@ -372,11 +377,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  margin: auto;
-  position: relative;
-  top: -30px;
-  left: -36px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .about__paragraph {
@@ -406,6 +407,7 @@
   padding-top: 60px;
   padding-left: 80px;
   padding-right: 102px;
+  padding-bottom: 60px;
 }
 
 .footer__columns {
@@ -445,6 +447,7 @@
 .footer__column-heading {
   margin-top: 0px;
   margin-bottom: 20px;
+  font-size: inherit;
 }
 
 .footer__column-link {
